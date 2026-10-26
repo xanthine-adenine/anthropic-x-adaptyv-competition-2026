@@ -1,7 +1,7 @@
 [project]
 name = "anthropic-x-adaptyv-challenge-4"
 version = "0.1.0"
-description = "Generate entries for the Anthropic x Adaptyv competition"
+description = "Generate entries for the Anthropic x Adaptyv competition challenge 4"
 requires-python = "==3.12.12"
 dependencies = [
     "gemmi>=0.7.5",

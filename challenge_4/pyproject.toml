@@ -1,5 +1,5 @@
 [project]
-name = "challenge-4"
+name = "anthropic-x-adaptyv-challenge-4"
 version = "0.1.0"
-requires-python = ">=3.14"
+requires-python = "==3.12.12"
 dependencies = []

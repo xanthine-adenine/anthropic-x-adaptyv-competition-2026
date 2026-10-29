@@ -1,0 +1,30 @@
+# Spec for BoltzGen. Generate protein binders for *H. sapiens* TfR1
+# homodimer, targeting region near apical domain.
+entities:
+    - protein:
+        id: C
+        sequence: 80
+        secondary_structure:
+        - chain:
+            id: C
+            helix: 3..17,24..38,45..59,66..80
+            loop: 18..23,39..44,60..65
+
+    - file:
+        path: 11QC.cif
+       
+        include: 
+            - chain:
+                id: A
+            - chain:
+                id: B
+
+        binding_types:
+            - chain:
+                id: A
+                binding: 93,222,223
+            - chain:
+                id: B
+                not_binding: "all"
+
+        structure_groups: "all"
